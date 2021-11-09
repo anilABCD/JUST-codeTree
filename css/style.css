@@ -1,0 +1,27 @@
+.root {
+  margin: 0 auto;
+  max-width: 400px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  font-size: 2rem;
+  min-height: 300px;
+  max-width: 400px;
+  min-width: 400px;
+  background: url(../images/coadingHeader.jpg);
+  background-size: fill;
+  box-shadow: 5px 5px #e9b1b1;
+}
+
+.hero-text-large {
+  background: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */
