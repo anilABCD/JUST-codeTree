@@ -1,17 +1,26 @@
 
+
+body{
+
+     background: #FFF;
+    
+}
+
+
 .root{
     margin:0 auto;
   
      color: white;
 
-     display: flex;
+    
      align-items: center;
      justify-content: center;
+
 }
 
 .root , .root > * {
-    max-width: 300px;
-    min-width: 300px;
+    max-width: 350px;
+    min-width: 350px;
 }
 
 .header {
@@ -20,6 +29,9 @@
     background-size:fill;
     border: 1px solid yellow;
     border-radius: 10px 10px 0px 0px;
+     border-radius: 10px ;
+    
+    
 }
 
 .hero-text-large{
@@ -27,4 +39,63 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 2rem;
 }
- 
+
+// toc ***************************
+
+.toc{
+  background: white;
+  color: black;
+  font-weight: 300;
+
+  .toc-heading{
+
+    font-size: 1.3rem;
+    font-weight:normal;
+    padding: 10px;
+  }
+
+   .tree{
+
+     list-style: none;
+
+    //  box-shadow: 0 0 5px rgb(102, 105, 103);
+
+
+     padding: 5px;
+     margin: 0;
+
+     .tree-data{
+         margin: 0;
+
+         padding: 10px;
+
+         border-radius: 155px;
+
+         border: 1px solid rgb(102, 105, 103);
+
+       .data-icon{
+
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 2px solid green;
+
+            display:block;
+
+            margin: auto auto;
+
+            display:inline-flex;
+
+            justify-content: center;
+            align-items: center;
+
+            }
+
+            .data-language{
+
+                padding-left: 15px;
+            }      
+
+     }
+   }
+}
