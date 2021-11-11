@@ -54,13 +54,16 @@ body {
 .header .spacer {
   flex: 1;
 }
-.header .icon-js {
-  color: green;
+
+.icon-js {
+  color: #79e679;
 }
-.header .icon-html {
+
+.icon-html {
   color: orange;
 }
-.header .icon-css {
+
+.icon-css {
   color: white;
 }
 
@@ -135,7 +138,6 @@ body {
   align-items: center;
   background-color: #5b5bd1;
   border-radius: 10px;
-  color: #302c26;
   padding: 10px;
   max-width: 50px;
   max-height: 50px;
@@ -154,15 +156,6 @@ body {
   flex: 1;
   padding-left: 15px;
   display: flex;
-}
-.toc .tree .tree-item .data-topic-html {
-  color: orange;
-}
-.toc .tree .tree-item .data-topic-css {
-  color: white;
-}
-.toc .tree .tree-item .data-topic-js {
-  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

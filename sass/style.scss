@@ -69,18 +69,20 @@ body{
        flex: 1;
      }
 
-     .icon-js{
-       color: green;
-     }
-
-     .icon-html{
-       color: orange;
-     }
-
-     .icon-css{
-        color: white;
-     }
+   
 }
+
+.icon-js{
+  color: rgb(121, 230, 121);
+}
+
+.icon-html{
+  color: orange;
+}
+
+.icon-css{
+  color: white;
+} 
 
 // toc ***************************
 
@@ -201,7 +203,7 @@ body{
               background-color: rgb(91, 91, 209);
              border-radius: 10px;;
              
-              color: rgb(48, 44, 38);
+             
              padding: 10px;
               max-width: 50px;
               max-height: 50px;
@@ -232,17 +234,7 @@ body{
             }   
 
 
-            .data-topic-html{
-              color: orange;
-            }
-
-            .data-topic-css{
-              color: white;
-            }
-
-             .data-topic-js{
-              color: white;
-            }
+           
 
 
 
