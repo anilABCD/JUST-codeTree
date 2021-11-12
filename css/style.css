@@ -129,7 +129,7 @@ body {
   justify-content: center;
   padding: 10px;
   border-radius: 10px;
-  box-shadow: 0 0 5px 5px #dfdddd;
+  box-shadow: 0 0 2px 2px #dfdddd;
 }
 .toc .tree .tree-item .data-topic {
   flex: 1;
