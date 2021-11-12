@@ -21,25 +21,34 @@ body{
 .root{
      margin:0 auto;
   
-     color: white;
+     display: flex;
+
+     flex-direction: column;
 
      align-items: center;
      justify-content: center;
 
+     min-height: 100px;
+
+      
 }
 
 .root , .root > * {
+
+     border-radius: 10px ;
     max-width: 450px;
     min-width: 450px;
 
    margin: 0 auto;
 }
 
-.header {
-    min-height: 290px;
+
+.header{
+    min-height: 300px;
     background: url(../images/codingBanner.jpg) ;
    
-    border-radius: 10px ;
+    color: white;
+   
 
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
@@ -52,25 +61,7 @@ body{
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         padding: 2rem;
     }
-
-    .icons-container{
-      margin-top: 10px;
-      display: flex;
-    }
-    
-    .icons{
-      flex: 1;
-              display: flex;
-              height: 50px;
-              width: 50px;
-     }
-
-     .spacer{
-       flex: 1;
-     }
-
-   
-}
+  }
 
 .icon-js{
   color: rgb(121, 230, 121);
@@ -84,160 +75,3 @@ body{
   color: white;
 } 
 
-// toc ***************************
-
-.progress-bar-container
-{
-     display:flex;
-     align-items: center;
-     justify-content: center;
-      margin-top: 20px;
-     .progress-bar{
-        font-size: xx-large;
-        padding: 10px;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  
-
-        // background: linear-gradient(90deg, red, blue);
-        // background-clip: text;
-        // color: transparent;
-
-        // background: -webkit-linear-gradient(90deg, red, blue);
-        // -webkit-background-clip: text;
-        // -webkit-text-fill-color: transparent;
-
-
-        .levels-text{
-           margin-bottom: 20px;
-
-           .level{
-
-               display:inline-flex;
-               border: 8px solid white;
-               border-radius: 50%;
-               min-width: 80px;
-               min-height: 80px;
-               
-               justify-content: center;
-               align-items: center;
-            
-               margin : 0 auto;
-           }
-        }
-
-        .levels{
-          display: flex;
-          justify-content: space-between;
-          border: 1px solid black;
-
-          background-color:white;
-
-          border-radius: 10px;
-
-          padding: 10px;
-
-              .p{
-
-                background-color: green;
-                min-width: 10px;
-                min-height: 10px;
-                flex-basis: 8%;
-
-              }
-        }
-    }
-
-
-  }
-
-// toc ***************************
-
-.toc{
-  background: white;
-  color: black;
-  font-weight: 300;
-
-  .toc-heading{
-
-    font-size: 1.3rem;
-    font-weight:normal;
-    padding: 10px;
-
-    padding: 20px;
-  }
-
- 
-   .tree{
-
-     list-style: none;
-
-    //  box-shadow: 0 0 5px rgb(102, 105, 103);
-
-
-     padding: 5px;
-     margin: 0;
-
-     .tree-item{
-         margin-bottom: 15px ;
-
-         display: flex;
-
-         align-items: center;
-         justify-content: center;
-
-         padding: 10px;
-
-         border-radius: 10px;
-
-         box-shadow: 0 0 2px 2px rgb(223, 221, 221);
-
-            .data-topic{
-              
-              flex: 1;
-
-              display:inline-flex;
-
-              justify-content:center;
-              align-items:center;
-            
-              background-color: rgb(91, 91, 209);
-             border-radius: 10px;;
-             
-             
-             padding: 10px;
-              max-width: 50px;
-              max-height: 50px;
-
-
-             
-              min-width:  50px;
-              min-height:   50px;
-            }
-
-            .data-language{
-
-                flex: 2;
-                padding-left: 15px;
-            }   
-            
-             .data-start{
-
-                 max-width: 60px;
-              max-height: 60px;
-             
-              min-width: 60px;
-              min-height: 60px;
-                flex: 1;
-                padding-left: 15px;
-
-                display: flex;
-            }   
-
-
-           
-
-
-
-     }
-   }
-}
